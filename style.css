@@ -142,10 +142,7 @@ img {
         min-width: 480px;
     }  
 
-    /* .img{
-        width: 100%;
-    } */
-
+    /* Lession Section */
     .lessons > container{
         display: flex;
     }
@@ -158,8 +155,10 @@ img {
 
     .lessons .col {
         width: 90%;
+        margin: 0 auto;
     }
 
+    /* Steps Section */
     .steps > container{
         display: flex;
     }
@@ -170,9 +169,10 @@ img {
 
     .steps .col{
         width: 90%;
+        margin: 0 auto;
     }
 
-    
+    /* Why Us Section */
     .why-us{
         background-color: #222222;
     }
@@ -184,13 +184,16 @@ img {
 
     .why-us .col-right {
         width: 90%;
+        margin: 0 auto;
     }
 
     .col .img{
         width: 100%;
-
     }
 
+    .why-us .col-left {
+        margin: 0 auto;
+    }
 
 }
 

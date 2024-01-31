@@ -142,8 +142,8 @@ img {
         min-width: 480px;
     }  
 
-    /* .lessons{
-        display: flex;
+    /* .img{
+        width: 100%;
     } */
 
     .lessons > container{
@@ -152,7 +152,7 @@ img {
 
     .lessons .row{
         flex-direction: column;
-        text-align: center;
+        justify-content: center;
         min-width: 480px;
     }
 
@@ -163,9 +163,15 @@ img {
     .steps .container .row{
         flex-direction: column;
     }
+
     
     .why-us{
         background-color: #222222;
+    }
+
+    .col .img{
+        width: 100%;
+
     }
 
 

@@ -140,7 +140,11 @@ img {
     .container{
         width: 100%;   
         min-width: 480px;
-    }  
+    }
+    
+    /* img{
+        margin: 5px 0;
+    } */
 
     /* Lession Section */
     .lessons > container{
@@ -158,6 +162,14 @@ img {
         margin: 0 auto;
     }
 
+    .lessons .col img {
+        margin: 5px 0;
+    }
+
+    .lessons .row .col .card p{
+        padding-bottom: 35px;
+    }
+
     /* Steps Section */
     .steps > container{
         display: flex;
@@ -170,6 +182,14 @@ img {
     .steps .col{
         width: 90%;
         margin: 0 auto;
+    }
+
+    .steps .col img {
+        margin: 5px 0;
+    }
+
+    .steps .row .col .card p{
+        padding-bottom: 35px;
     }
 
     /* Why Us Section */
@@ -193,6 +213,10 @@ img {
 
     .why-us .col-left {
         margin: 0 auto;
+    }
+
+    .why-us h2{
+        padding-top: 35px;
     }
 
 }

@@ -128,11 +128,19 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 @media screen and (max-width: 768px) {
-    .lessons{
-        background-color: #232946;
+    .container{
+        width: 100%;   
     }    
-
-    
-
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+        width: 100%;   
+    }  
+    
+    .why-us{
+        background-color: #222222;
+    }
+}
+
 

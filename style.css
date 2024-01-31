@@ -130,21 +130,15 @@ img {
  /* versione desktop */
 @media screen and (max-width: 768px) {
     .container{
-        width: 100%;   
-        min-width: 768px;
+        width: 95%;   
     }    
 }
 
 /* versione mobile */
 @media screen and (max-width: 480px) {
     .container{
-        width: 100%;   
-        min-width: 480px;
+        width: 95%;   
     }
-    
-    /* img{
-        margin: 5px 0;
-    } */
 
     /* Lession Section */
     .lessons > container{
@@ -153,8 +147,6 @@ img {
 
     .lessons .row{
         flex-direction: column;
-        justify-content: center;
-        min-width: 480px;
     }
 
     .lessons .col {
@@ -174,6 +166,7 @@ img {
     .steps > container{
         display: flex;
     }
+    /* Fine Lession Section */
 
     .steps .container .row{
         flex-direction: column;
@@ -191,6 +184,7 @@ img {
     .steps .row .col .card p{
         padding-bottom: 35px;
     }
+    /* Fine Steps Section */
 
     /* Why Us Section */
     .why-us{
@@ -218,7 +212,6 @@ img {
     .why-us h2{
         padding-top: 35px;
     }
-
 }
 
 

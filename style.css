@@ -156,6 +156,10 @@ img {
         min-width: 480px;
     }
 
+    .lessons .col {
+        width: 90%;
+    }
+
     .steps > container{
         display: flex;
     }
@@ -164,9 +168,22 @@ img {
         flex-direction: column;
     }
 
+    .steps .col{
+        width: 90%;
+    }
+
     
     .why-us{
         background-color: #222222;
+    }
+
+    .why-us .container .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why-us .col-right {
+        width: 90%;
     }
 
     .col .img{

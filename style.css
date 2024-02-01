@@ -128,16 +128,16 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
  /* versione desktop */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1140px) {
     .container{
-        width: 95%;   
+        width: 100%;   
     }    
 }
 
 /* versione mobile */
 @media screen and (max-width: 480px) {
     .container{
-        width: 95%;   
+        width: 100%;   
     }
 
     /* Lession Section */
@@ -184,6 +184,10 @@ img {
     .steps .row .col .card p{
         padding-bottom: 35px;
     }
+
+    .steps{
+        margin-bottom: 0;
+    }
     /* Fine Steps Section */
 
     /* Why Us Section */
@@ -211,6 +215,10 @@ img {
 
     .why-us h2{
         padding-top: 35px;
+    }
+
+    .why-us{
+        margin-bottom: 0;
     }
 }
 
